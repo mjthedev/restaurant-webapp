@@ -1,6 +1,13 @@
 module.exports = {
   content: ['./src/**/*.{js,ts,jsx,tsx}'],
   theme: {
+    fontFamily: {
+      sans: ['ui-sans-serif', 'system-ui', 'brandon_bld'],
+      serif: ['ui-serif', 'Georgia'],
+      mono: ['ui-monospace', 'SFMono-Regular'],
+      display: ['Oswald'],
+      body: ['"Open Sans"'],
+    },
     fontSize: {
       xs: '0.75rem',
       sm: '0.875rem',
